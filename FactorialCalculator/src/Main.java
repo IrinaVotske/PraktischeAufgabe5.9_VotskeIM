@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-    int value = -1;
+        int value = -1;
 
         for (;value != 0;) {
             value = new Scanner(System.in).nextInt();

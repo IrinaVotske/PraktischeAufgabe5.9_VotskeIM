@@ -5,11 +5,11 @@ public class Basket {
 
     public Basket(){
         items = "Список товаров: ";
-        limit = totalPriceLimit;
+        this.limit = 1000000;
     }
     public Basket(int totalPriceLimit){
         this();
-        this.limit = 1000000;
+        this.limit = totalPriceLimit;
     }
 
     public void add(String name, int price) {
